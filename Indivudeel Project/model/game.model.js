@@ -42,7 +42,8 @@ Game.count({}, function (err, count) {
             description: "In a time of global crisis, an international task force of heroes banded together to restore peace to a war-torn world: OVERWATCH. It ended the crisis and helped to maintain peace in the decades that followed, inspiring an era of exploration, innovation, and discovery. But after many years, Overwatch's influence waned, and it was eventually disbanded.",
             characters: [
                 {
-                    name: 'Junkrat'
+                    name: 'Junkrat',
+                    imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg'
                 },
                 {
                     name: 'Roadhog'

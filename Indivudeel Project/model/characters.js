@@ -5,7 +5,11 @@ const CharacterSchema = new Schema({
     name:{
         type: String,
         required: true
+    },
+    imagePath:{
+        type: String
     }
+
 });
 
 const Character = mongoose.model('characters', CharacterSchema);
