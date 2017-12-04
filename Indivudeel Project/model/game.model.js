@@ -43,7 +43,7 @@ Game.count({}, function (err, count) {
             characters: [
                 {
                     name: 'Junkrat',
-                    imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg11'
+                    imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg'
                 },
                 {
                     name: 'Roadhog'
