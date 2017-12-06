@@ -46,10 +46,12 @@ Game.count({}, function (err, count) {
                     imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg'
                 },
                 {
-                    name: 'Roadhog'
+                    name: 'Roadhog',
+                    imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg'
                 },
                 {
-                    name: 'Solder 76'
+                    name: 'Solder 76',
+                    imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg'
                 }
             ],
             imagePath: 'https://www.geforce.com/sites/default/files-world/featured_image/overwatch-keyart.jpg',
