@@ -26,6 +26,10 @@ const GameSchema = new Schema({
     publisher: {
         type: String,
         required: true
+    },
+    releaseYear: {
+        type: Number,
+        required: true
     }
 
 });
@@ -68,6 +72,7 @@ Game.count({}, function (err, count) {
             ],
             developer: "Blizzard Entertainment",
             publisher: "Blizzard Entertainment",
+            releaseYear: "2017"
         }).save();
     }
     else {
