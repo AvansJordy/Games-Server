@@ -12,7 +12,4 @@ const CharacterSchema = new Schema({
 const Character = mongoose.model('characters', CharacterSchema);
 
 
-module.exports={
-    Characters: Character
-    , CharacterSchema : CharacterSchema
-};
+module.exports=Character;
